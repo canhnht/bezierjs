@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "rollup": "run-s rollup:docs rollup:dist",
-    "rollup:base": "rollup ./lib/bezier.js --format esm --file ",
+    "rollup:base": "rollup ./lib/bezier.js --format cjs --file ",
     "rollup:docs": "npm run rollup:base -- ./docs/js/bezier.js",
     "rollup:dist": "npm run rollup:base -- ./dist/bezier.js",
     "lint:lib": "prettier ./lib/**/*.js --write",

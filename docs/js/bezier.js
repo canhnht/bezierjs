@@ -1,3 +1,7 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
 // math-inlining.
 const { abs, cos, sin, acos, atan2, sqrt, pow } = Math;
 
@@ -2232,4 +2236,4 @@ class Bezier {
   }
 }
 
-export { Bezier };
+exports.Bezier = Bezier;
